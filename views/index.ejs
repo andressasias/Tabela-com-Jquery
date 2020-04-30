@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <title>Encomendas</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="container-table">
+            <div class="wrap-table">
+                <h1 id="encomenda">Encomendas</h1>
+                <div class="table">
+                    <table id="tableOrder">
+                        <thead class="table-head">
+                            <tr>
+                                <th>Código</th>
+                                <th>Nome do Cliente</th>
+                                <th>Valor</th>
+                                <th>Valor Final</th>
+                                <th>Data de Entrega</th>
+                                <th>Visualizar</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tbody">
+                        </tbody>
+                    </table>
+                    
+                    <div class="pagination">
+                        <p>Página <span id="page"></span></p>
+                        <span id="prev">&lt;</span>
+                        <span id="next">&gt;</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    <script src="app.js"></script>
+</body>
+</html>
